@@ -8,5 +8,5 @@
         state: latest
     - name: git checkout the website
       git:
-        name: 
-        state: started
+        dest: /var/www/html
+        repo:  https://github.com/linuxacademy/content-introduction-to-ansible/tree/master/sample-website

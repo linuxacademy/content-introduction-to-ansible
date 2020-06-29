@@ -9,4 +9,4 @@
     - name: git checkout the website
       git:
         dest: /var/www/html
-        repo:  https://github.com/linuxacademy/content-introduction-to-ansible/tree/master/sample-website
+	repo: https://github.com/linuxacademy/content-introduction-to-ansible.git
